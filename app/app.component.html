@@ -1,0 +1,10 @@
+<!-- https://docs.nativescript.org/angular/core-concepts/angular-navigation.html#page-router-outlet -->
+<ActionBar class="action-bar" title="Learning nativescript">
+   <ActionItem>
+    <Button text="Action" class="action-item"></Button>
+  </ActionItem>
+</ActionBar>
+<StackLayout>
+<Label class="h1 m-x-auto font-italic" text="Hello"></Label> 
+<TextField hint="Enter Data" autocorrect="false" maxLength="5"  (focus)="onFocus($event)"  class="input input-border"></TextField>
+</StackLayout>
